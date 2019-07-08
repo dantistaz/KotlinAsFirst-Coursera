@@ -48,18 +48,18 @@ fun quadraticRootProduct(a: Double, b: Double, c: Double): Double {
  * Пример главной функции
  */
 fun main(args: Array<String>) {
-    val x1x2 = quadraticRootProduct(1.0, 13.0, 42.0)
-    println("Root product: $x1x2")
+    val result = sqr(7)
+    println("7*7 = $result")
+
+
+    /**
+     * Тривиальная
+     *
+     * Пользователь задает время в часах, минутах и секундах, например, 8:20:35.
+     * Рассчитать время в секундах, прошедшее с начала суток (30035 в данном случае).
+     */
+    fun seconds(hours: Int, minutes: Int, seconds: Int): Int = TODO()
 }
-
-/**
- * Тривиальная
- *
- * Пользователь задает время в часах, минутах и секундах, например, 8:20:35.
- * Рассчитать время в секундах, прошедшее с начала суток (30035 в данном случае).
- */
-fun seconds(hours: Int, minutes: Int, seconds: Int): Int = TODO()
-
 /**
  * Тривиальная
  *
