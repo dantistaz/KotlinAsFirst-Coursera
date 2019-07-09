@@ -51,7 +51,7 @@ fun main(args: Array<String>) {
     val result = sqr(7)
     println("7*7 = $result")
 
-
+}
     /**
      * Тривиальная
      *
@@ -59,7 +59,7 @@ fun main(args: Array<String>) {
      * Рассчитать время в секундах, прошедшее с начала суток (30035 в данном случае).
      */
     fun seconds(hours: Int, minutes: Int, seconds: Int): Int = TODO()
-}
+
 /**
  * Тривиальная
  *
